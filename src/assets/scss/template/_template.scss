@@ -8,12 +8,36 @@ html,
   background: #f3f3f3 !important;
 }
 
+// .section-padding {
+//    &  > table > tbody > tr {
+//       padding-left: 20px !important;
+//       padding-right: 20px !important;
+//    }
+// }
+
 // HEADER
 
 .header {
+   & > tbody > tr > th {
+      padding-left: 30px !important;
+      padding-right: 30px !important;
+   }
    .logo-price {
       img {
          width: 70px;
+      }
+      th {
+         padding-top: 20px;
+      }
+      p {
+         font-size: 12px;
+         margin-bottom: 2px;
+      }
+   }
+
+   .thanks {
+      p {
+         font-size: 20px;
       }
    }
 }
