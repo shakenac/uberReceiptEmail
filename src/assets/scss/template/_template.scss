@@ -22,9 +22,14 @@ p {
 // HEADER
 
 .header {
+
+   background: #c6daff;
+   background-color: #c6daff;
+
    & > tbody > tr > th {
       padding-left: 30px !important;
-      padding-right: 30px !important;
+      padding-right: 0 !important;
+      padding-bottom: 0 !important;
    }
    .logo-price {
       img {
@@ -37,6 +42,12 @@ p {
          font-size: 12px;
          margin-bottom: 2px;
       }
+
+      &__price {
+         th {
+            padding-right: 30px !important;
+         }
+      }
    }
 
    .thanks {
@@ -48,6 +59,18 @@ p {
       }
       th {
          vertical-align: bottom;
+      }
+
+      .car-img {
+         background: url("../assets/img/images/header-bg.png");
+         background-repeat: no-repeat;
+         background-position: 100% 100%;
+         background-size: 200%;
+         direction: 1tr;
+         // width: 100%;
+         padding-bottom: 0;
+
+         // text-align: left;
       }
    }
 }
