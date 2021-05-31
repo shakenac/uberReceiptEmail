@@ -8,6 +8,10 @@ html,
   background: #f3f3f3 !important;
 }
 
+p {
+   hyphens: none;
+}
+
 // .section-padding {
 //    &  > table > tbody > tr {
 //       padding-left: 20px !important;
@@ -40,7 +44,7 @@ html,
          font-size: 20px;
       }
       img {
-         
+         width: 144px;
       }
       th {
          vertical-align: bottom;
