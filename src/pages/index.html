@@ -32,9 +32,77 @@ subject: My Email Templates
          <spacer size="30"></spacer>
 
          <!-- Receipt -->
-         <!-- <row class="receipt">
-            <columns></columns>
-         </row> -->
+         <row class="receipt">
+            <columns>
+
+               <row class="receipt__fare">
+                  <columns>
+                     <p>Trip Fare</p>
+                  </columns>
+                  <columns>
+                     <p>$10.57</p>
+                  </columns>
+               </row>
+
+               <!-- Border-line -->
+               <row class="border-line">
+                  <columns></columns>
+               </row>
+
+               <spacer size="30"></spacer>
+
+               <row class="receipt__subtotal">
+                  <columns>
+                     <p>Subtotal</p>
+                  </columns>
+                  <columns>
+                     <p>$10.57</p>
+                  </columns>
+               </row>
+
+               <row class="receipt__fees">
+                  <columns>
+                     <p>Tolls, Surcharges, and Fees
+                        <img src="{{root}}assets/img/images/questionmark.png" alt="">
+                     </p>
+                  </columns>
+                  <columns>
+                     <p>$2.55</p>
+                  </columns>
+               </row>
+
+               <!-- Border-line -->
+               <row class="border-line">
+                  <columns></columns>
+               </row>
+
+               <spacer size="30"></spacer>
+
+               <row class="receipt__paymethod">
+                  <columns>
+                     <img src="{{root}}assets/img/images/mastercard.png" alt="">
+                     <p>•••• 1234</p>
+                     <a href="#">SWITCH</a>
+                  </columns>
+                  <columns>
+                     <p>$13.12</p>
+                  </columns>
+               </row>
+
+               <row class="receipt__note">
+                  <columns>
+                     <p>A temporary hold of $13.12 was placed on your payment method •••• 1234. This is not a charge and will be removed. It should disappear from your bank statement shortly. <a href="#">Learn More</a></p>
+                  </columns>
+               </row>
+
+               <row class="recept__pdf">
+                  <columns>
+                     <a href="#">Download PDF</a>
+                  </columns>
+               </row>
+
+            </columns>
+         </row>
 
 
       </columns>

@@ -118,9 +118,21 @@ p {
       background: #009eb7;
 
       & > tbody > tr > th {
-         padding-left: 30px !important;
-         padding-right: 30px !important;
          padding-bottom: 0;
+      }
+   }
+
+   .receipt {
+
+
+
+      .border-line {
+         height: .75px;
+         background: #bdbdbd;
+
+         & > tbody > tr > th {
+            padding-bottom: 0;
+         }
       }
    }
 }
