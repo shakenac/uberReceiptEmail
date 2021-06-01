@@ -277,3 +277,46 @@ p {
       }
    }
 }
+
+
+//// DESTINATION
+.destination {
+
+   & > tbody > tr > th {
+      // padding-bottom: 30px !important;
+      padding-left: 30px !important;
+      padding-right: 30px !important;
+   }
+
+   p {
+      font-size: 15px;
+   }
+
+   &__distTime {
+      p {
+         display: inline-block;
+         color: #595959;
+      }
+      .uberX {
+         background: #000;
+         background-color: #000;
+         color: #fff;
+         text-align: center;
+         font-size: 12px;
+         padding-top: 4px;
+         padding-bottom: 4px;
+         padding-left: 10px;
+         padding-right: 10px;
+         border-radius: 20px;
+         margin-right: 10px;
+      }
+   }
+
+   .address {
+      .graphic {
+         img {
+            width: 10px;
+         }
+      }
+   }
+}
