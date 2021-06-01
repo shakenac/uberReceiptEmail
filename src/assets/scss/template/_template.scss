@@ -109,4 +109,14 @@ p {
 
    }
 
+   .border-line {
+      height: .75px;
+      background: #009eb7;
+
+      & > tbody > tr > th {
+         padding-left: 30px !important;
+         padding-right: 30px !important;
+         padding-bottom: 0;
+      }
+   }
 }
