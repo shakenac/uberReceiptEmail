@@ -12,20 +12,12 @@ p {
    hyphens: none;
 }
 
-// .section-padding {
-//    &  > table > tbody > tr {
-//       padding-left: 20px !important;
-//       padding-right: 20px !important;
-//    }
-// }
 
-// HEADER
+////// HEADER
 
 .header {
 
-
    background-color: #c6daff;
-
 
    & > tbody > tr > th {
       padding-left: 30px !important;
@@ -33,7 +25,7 @@ p {
       padding-bottom: 0 !important;
 
       background: url("../assets/img/images/header-bg.png");
-      background-size: 95%;
+      // background-size: 100%;
       background-repeat: no-repeat;
       background-position: 100% 100%;
       direction: 1tr;
@@ -64,23 +56,25 @@ p {
          font-size: 20px;
          padding-bottom: 40px;
          margin-bottom: 0;
+
+         // @media only screen and (max-width: #{$global-breakpoint}) {
+         //    padding-right: 60px;
+         // }
       }
-      img {
-         width: 144px;
-      }
+
       th {
          vertical-align: bottom;
       }
 
       .car-img {
-         // background: url("../assets/img/images/header-bg.png");
-         // background-repeat: no-repeat;
-         // background-position: 100% 100%;
-         // background-size: 200%;
-         // direction: 1tr;
-         // padding-bottom: 0;
+         img {
+            width: 160px;
+            padding-right: 30px !important;
 
-         // text-align: left;
+            @media only screen and (max-width: #{$global-breakpoint}) {
+               float: left;
+            }
+         }
       }
    }
 }
