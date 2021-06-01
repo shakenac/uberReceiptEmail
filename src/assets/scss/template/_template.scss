@@ -91,6 +91,8 @@ p {
 
 
 ///// RECEIPT
+
+//pay-info
 .paymentInfo {
 
    & > tbody > tr > th {
@@ -110,7 +112,6 @@ p {
             width: 13px;
          }
       }
-
    }
 
    .border-line {
@@ -122,17 +123,66 @@ p {
       }
    }
 
+   // receipt
    .receipt {
 
+      p {
+         font-size: 15px;
+         margin-bottom: 0;
+         Margin-bottom: 0;
+      }
 
+      &__fees {
+         img {
+            display: inline-block;
+            vertical-align: middle;
+            padding-left: 5px;
+            padding-bottom: 3px;
+            width: 15px;
+         }
+      }
+
+      &__fare {
+         & > tbody > tr > th {
+            padding-bottom: 30px;
+         }
+      }
+
+      &__note {
+         p {
+            font-size: 12px;
+            line-height: 20px;
+         }
+      }
+
+      &__paymethod {
+
+         img {
+            display: inline-block;
+            width: 35px;
+            padding-right: 12px;
+            vertical-align: middle;
+         }
+         .cardInfo {
+            p {
+               display: inline-block;
+               vertical-align: middle;
+               padding-right: 10px;
+            }
+         }
+
+         .paymethodPrice {
+            vertical-align: middle;
+         }
+         a {
+            vertical-align: middle;
+         }
+      }
 
       .border-line {
          height: .75px;
          background: #bdbdbd;
-
-         & > tbody > tr > th {
-            padding-bottom: 0;
-         }
       }
+
    }
 }

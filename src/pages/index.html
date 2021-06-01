@@ -4,6 +4,7 @@ subject: My Email Templates
 ---
 
 <container>
+   <!-- PaymentInfo -->
    <row class="paymentInfo">
       <columns>
          <spacer size="45"></spacer>
@@ -36,11 +37,11 @@ subject: My Email Templates
             <columns>
 
                <row class="receipt__fare">
-                  <columns>
+                  <columns small="8">
                      <p>Trip Fare</p>
                   </columns>
-                  <columns>
-                     <p>$10.57</p>
+                  <columns small="4">
+                     <p class="text-right">$10.57</p>
                   </columns>
                </row>
 
@@ -52,24 +53,26 @@ subject: My Email Templates
                <spacer size="30"></spacer>
 
                <row class="receipt__subtotal">
-                  <columns>
+                  <columns small="8">
                      <p>Subtotal</p>
                   </columns>
-                  <columns>
-                     <p>$10.57</p>
+                  <columns small="4">
+                     <p class="text-right">$10.57</p>
                   </columns>
                </row>
 
                <row class="receipt__fees">
-                  <columns>
+                  <columns small="8">
                      <p>Tolls, Surcharges, and Fees
                         <img src="{{root}}assets/img/images/questionmark.png" alt="">
                      </p>
                   </columns>
-                  <columns>
-                     <p>$2.55</p>
+                  <columns small="4">
+                     <p class="text-right">$2.55</p>
                   </columns>
                </row>
+
+               <spacer size="15"></spacer>
 
                <!-- Border-line -->
                <row class="border-line">
@@ -79,13 +82,13 @@ subject: My Email Templates
                <spacer size="30"></spacer>
 
                <row class="receipt__paymethod">
-                  <columns>
+                  <columns class="cardInfo" small="8">
                      <img src="{{root}}assets/img/images/mastercard.png" alt="">
                      <p>•••• 1234</p>
                      <a href="#">SWITCH</a>
                   </columns>
-                  <columns>
-                     <p>$13.12</p>
+                  <columns class="paymethodPrice" small="4">
+                     <p class="text-right">$13.12</p>
                   </columns>
                </row>
 
@@ -95,7 +98,7 @@ subject: My Email Templates
                   </columns>
                </row>
 
-               <row class="recept__pdf">
+               <row class="receipt__pdf">
                   <columns>
                      <a href="#">Download PDF</a>
                   </columns>
@@ -103,7 +106,6 @@ subject: My Email Templates
 
             </columns>
          </row>
-
 
       </columns>
    </row>
