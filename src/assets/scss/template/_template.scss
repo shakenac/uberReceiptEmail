@@ -40,9 +40,9 @@ p {
       th {
          padding-top: 20px;
 
-         @media only screen and (max-width: #{$global-breakpoint}) {
-            padding-left: 20px;
-         }
+         // @media only screen and (max-width: #{$global-breakpoint}) {
+         //    padding-left: 20px;
+         // }
       }
       p {
          font-size: 12px;
@@ -52,6 +52,10 @@ p {
       &__price {
          th {
             padding-right: 30px !important;
+
+            @media only screen and (max-width: #{$global-breakpoint}) {
+               padding-right: 0 !important;
+            }
          }
       }
    }
@@ -66,9 +70,9 @@ p {
       th {
          vertical-align: bottom;
 
-         @media only screen and (max-width: #{$global-breakpoint}) {
-            padding-left: 20px;
-         }
+         // @media only screen and (max-width: #{$global-breakpoint}) {
+         //    padding-left: 20px;
+         // }
       }
 
       .car-img {
