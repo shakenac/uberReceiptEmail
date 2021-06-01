@@ -313,7 +313,7 @@ p {
    }
 
    .address {
-      
+
       .graphic {
          img {
             width: 10px;
@@ -329,6 +329,29 @@ p {
          a {
             line-height: 25px;
          }
+      }
+   }
+}
+
+
+//// FOOTER
+.footer {
+   & > tbody > tr > th {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+   }
+   &__menu {
+      background: #276ef1;
+      background-color: #276ef1;
+      a {
+         color: #fff;
+         vertical-align: middle;
+         padding-left: 30px;
+      }
+
+      th.columns, th.column {
+         padding-top: 20px;
+         padding-bottom: 20px;
       }
    }
 }
