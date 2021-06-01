@@ -98,8 +98,7 @@ p {
    & > tbody > tr > th {
       padding-left: 30px !important;
       padding-right: 30px !important;
-      padding-bottom: 20px;
-      // border-bottom: 1px solid #009eb7;
+      padding-bottom: 10px;
    }
 
    .total {
@@ -184,5 +183,69 @@ p {
          background: #bdbdbd;
       }
 
+   }
+}
+
+.uberRewards {
+   & > tbody > tr > th {
+      padding-left: 30px !important;
+      padding-right: 30px !important;
+      padding-bottom: 20px !important;
+   }
+
+   &__header {
+
+      th > img {
+         width: 13px;
+         display: inline-block;
+         padding-right: 5px;
+      }
+
+      p {
+         display: inline-block;
+         font-size: 16px;
+      }
+   }
+
+   &__basePoints {
+
+      vertical-align: middle;
+      p {
+         margin-bottom: 0;
+         Margin-bottom: 0;
+      }
+      & > tbody > tr > th {
+         padding-bottom: 12px !important;
+      }
+
+      .basePointstxt {
+
+         p {
+            font-size: 15px;
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 1px;
+         }
+         img {
+            width: 15px;
+            display: inline-block;
+            vertical-align: middle;
+            padding-left: 5px;
+         }
+      }
+
+      .pointNum {
+         float: right;
+      }
+   }
+
+   .border-line {
+      height: .75px;
+      background: #bdbdbd;
+      // padding-bottom: 0 !important;
+
+      th {
+         padding-bottom: 0;
+      }
    }
 }
