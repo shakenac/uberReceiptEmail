@@ -25,7 +25,7 @@ p {
       padding-bottom: 0 !important;
 
       background: url("../assets/img/images/header-bg.png");
-      // background-size: 100%;
+      background-size: 108%;
       background-repeat: no-repeat;
       background-position: 100% 100%;
       direction: 1tr;
@@ -70,7 +70,7 @@ p {
 
       th {
          vertical-align: bottom;
-         
+
          @media only screen and (max-width: #{$global-breakpoint}) {
             padding-left: 20px;
          }
