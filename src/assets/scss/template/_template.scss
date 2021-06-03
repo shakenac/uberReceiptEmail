@@ -335,23 +335,40 @@ p {
 
 
 //// FOOTER
-.footer {
-   & > tbody > tr > th {
-      padding-left: 0 !important;
-      padding-right: 0 !important;
-   }
-   &__menu {
-      background: #276ef1;
-      background-color: #276ef1;
-      a {
-         color: #fff;
-         vertical-align: middle;
-         padding-left: 30px;
-      }
 
-      th.columns, th.column {
-         padding-top: 20px;
-         padding-bottom: 20px;
-      }
+// footer menu
+.footer__menu {
+   background: #276ef1;
+   background-color: #276ef1;
+
+   & > tbody > tr > th {
+      padding-left: 30px !important;
+      padding-right: 30px !important;
    }
+
+   a {
+      color: #fff;
+      vertical-align: middle;
+      // padding-left: 30px;
+   }
+
+   th.columns, th.column {
+      padding-top: 20px;
+      padding-bottom: 20px;
+   }
+}
+
+// footer
+.footer {
+
+   .container{
+      background: #000;
+      background-color: #000;
+   }
+
+   // footer__logo
+   &__logo {
+      img: ;
+   }
+
 }
