@@ -398,6 +398,28 @@ p {
       }
    }
 
-   //
+   // footer__links
+   &__links {
+      & > tbody > tr > th {
+         padding-top: 30px !important;
+      }
+      a, p {
+         display: block;
+         color: #9d9da3;
+         font-size: 12px;
+         padding-bottom: 15px;
+      }
+      p {
+         // color: #9d9da3;
+         // font-size: 12px;
+         margin-bottom: 0;
+         Margin-bottom: 0;
+      }
+      .column-2 {
+         a, p {
+            padding-bottom: 5px !important;
+         }
+      }
 
+   }
 }
