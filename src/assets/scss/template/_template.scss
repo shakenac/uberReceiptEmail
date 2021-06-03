@@ -24,7 +24,7 @@ p {
       padding-right: 0 !important;
       padding-bottom: 0 !important;
 
-      background: url("../assets/img/images/header-bg.png");
+      background: url("https://i.imgur.com/Wfp3PO5.png");
       background-size: 108%;
       background-repeat: no-repeat;
       background-position: 100% 100%;
@@ -82,7 +82,7 @@ p {
             padding-right: 30px !important;
 
             @media only screen and (max-width: #{$global-breakpoint}) {
-               float: left;
+               float: left !important;
             }
          }
       }
@@ -366,23 +366,11 @@ p {
       padding-left: 0 !important;
       padding-right: 0 !important;
    }
-   // .wrapper-inner {
-   //    background: #000;
-   //    background-color: #000;
-   // }
 
    .container {
       background: #000;
       background-color: #000;
       width: 100%;
-
-      // @media only screen and (max-width: 616px) {
-      //    table.body {
-      //
-      //       width: 100%;
-      //    }
-      // }
-
 
       // adding padding to wrapper inner
       & > tbody > tr > td {
