@@ -361,14 +361,30 @@ p {
 // footer
 .footer {
 
+   // remove padding from columns
+   th.columns, th.column {
+      padding-left: 0;
+      padding-right: 0;
+   }
+   
    .container{
       background: #000;
       background-color: #000;
+
+      // adding padding to wrapper inner
+      & > tbody > tr > td {
+         padding-top: 30px;
+         padding-bottom: 30px;
+         padding-right: 30px;
+         padding-left: 30px;
+      }
    }
 
    // footer__logo
    &__logo {
-      img: ;
+      img {
+         width: 70px;
+      }
    }
 
 }
