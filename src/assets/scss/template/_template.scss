@@ -39,10 +39,6 @@ p {
       }
       th {
          padding-top: 20px;
-
-         // @media only screen and (max-width: #{$global-breakpoint}) {
-         //    padding-left: 20px;
-         // }
       }
       p {
          font-size: 12px;
@@ -360,12 +356,6 @@ p {
 
 // footer
 .footer {
-
-   // remove padding from columns
-   // th.columns, th.column {
-   //    padding-left: 0 !important;
-   //    padding-right: 0 !important;
-   // }
 
    background: #000;
    background-color: #000;
