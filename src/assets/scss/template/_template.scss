@@ -416,11 +416,16 @@ p {
          margin-bottom: 0;
          Margin-bottom: 0;
       }
+      .column-1 {
+         a {
+            color: #fff;
+         }
+      }
       .column-2 {
          a, p {
             padding-bottom: 5px !important;
          }
       }
-   
+
    }
 }
