@@ -362,32 +362,33 @@ p {
 .footer {
 
    // remove padding from columns
-   th.columns, th.column {
-      padding-left: 0 !important;
-      padding-right: 0 !important;
+   // th.columns, th.column {
+   //    padding-left: 0 !important;
+   //    padding-right: 0 !important;
+   // }
+
+   background: #000;
+   background-color: #000;
+   width: 100%;
+
+
+   // adding padding to wrapper inner
+   & > tbody > tr > th {
+      padding-top: 40px !important;
+      padding-bottom: 40px !important;
+      padding-right: 30px !important;
+      padding-left: 30px !important;
    }
 
-   .container {
-      background: #000;
-      background-color: #000;
-      width: 100%;
+   .border-line {
+      height: .75px;
+      background: #333;
 
-      // adding padding to wrapper inner
-      & > tbody > tr > td {
-         padding-top: 40px !important;
-         padding-bottom: 40px !important;
-         padding-right: 30px !important;
-         padding-left: 30px !important;
-      }
-
-      .border-line {
-         height: .75px;
-         background: #333;
-         & > tbody > tr > th {
-            padding-bottom: 0;
-         }
+      & > tbody > tr > th {
+         padding-bottom: 0;
       }
    }
+
 
    // footer__logo
    &__logo {
@@ -420,6 +421,6 @@ p {
             padding-bottom: 5px !important;
          }
       }
-
+   
    }
 }
